@@ -18,7 +18,7 @@ function App() {
     setMenuItems(newItems)
   }
 
-  return <main href="https://github.com/pub-menu">
+  return <main>
     <section className='menu section'>
       <div className='title'>
         <h2>새마을포차</h2>
