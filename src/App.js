@@ -1,20 +1,33 @@
-import FullPage from './component/FullPage';
-import './App.css';
+import React, { useState } from 'react';
+import Menu from './Menu';
+import Categories from './Categories';
+import items from './data';
+
+const allCategories = ['all',...new Set(items.map(item => item.category))];
 
 function App() {
-	return (
-		<div>
-			<FullPage />
-			<h1 className="githubio" align="center">
-				<a
-				target="_blank"
-				rel="noreferrer"
-				class="underline"
-				href="https://github.com/byun-sungwoo">
-					github/byun-sungwoo
-				</a>
-			</h1>
-		</div>
-	);
+  const [menuItems,setMenuItems] = useState(items)
+  const [categories, setCategories] = useState(allCategories)
+
+  const filterItems = (category) => {
+    if (category === 'all') {
+      setMenuItems(items)
+      return
+    }
+    const newItems = items.filter((item) => item.category === category)
+    setMenuItems(newItems)
+  }
+
+  return <main>
+    <section className='menu section'>
+      <div className='title'>
+        <h2>새마을포차</h2>
+        <div className='underline'></div>
+      </div>
+      <Categories categories={categories} filterItems={filterItems} />
+      <Menu items={menuItems} />
+    </section>
+  </main>;
 }
+
 export default App;
