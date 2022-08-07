@@ -4,7 +4,7 @@ const menu = [
 		title: 'Spicy Chicken Feet Stew',
 		category: 'entree',
 		price: 19.99,
-		img: './images/img1.png',
+		img: 'img1.png',
 		desc: '새마을 국물 닭발',
 	},
 	{
@@ -12,7 +12,7 @@ const menu = [
 		title: 'Korean Market Style Chicken',
 		category: 'entree',
 		price: 19.99,
-		img: './images/img2.png',
+		img: 'img2.png',
 		desc: '시장 통닭',
 	},
 	{
@@ -20,7 +20,7 @@ const menu = [
 		title: 'Rose Tteok bok ki',
 		category: 'entree',
 		price: 17.99,
-		img: './images/img3.png',
+		img: 'img3.png',
 		desc: '로제 떡볶이',
 	},
 	{
@@ -28,7 +28,7 @@ const menu = [
 		title: 'Traditional Tteok bok ki',
 		category: 'entree',
 		price: 17.99,
-		img: './images/img4.png',
+		img: 'img4.png',
 		desc: '국민학교 떡볶이',
 	},
 	{
@@ -36,7 +36,7 @@ const menu = [
 		title: 'New village Spicy Tteok bok ki w/ cheese',
 		category: 'entree',
 		price: 19.99,
-		img: './images/img5.png',
+		img: 'img5.png',
 		desc: '새마을 떡볶이',
 	},
 	{
@@ -44,7 +44,7 @@ const menu = [
 		title: 'Stir Fried Squid',
 		category: 'entree',
 		price: 17.99,
-		img: './images/img6.png',
+		img: 'img6.png',
 		desc: '오징어 볶음',
 	},
 	{
@@ -52,7 +52,7 @@ const menu = [
 		title: 'Sea Snail and Squid Muchim',
 		category: 'entree',
 		price: 29.99,
-		img: './images/img7.png',
+		img: 'img7.png',
 		desc: '오뱅이',
 	},
 	{
@@ -60,15 +60,15 @@ const menu = [
 		title: 'Jokbal, Braised Pig Trotter',
 		category: 'entree',
 		price: 32.99 ,
-		img: './images/img8.png',
+		img: 'img8.png',
 		desc: '족발',
 	},
 	{
 		id: 9,
-		title: 'Bossam,Korean Pork Lettuce Wrap',
+		title: 'Bossam, Korean Pork Lettuce Wrap',
 		category: 'entree',
 		price: 32.99,
-		img: './images/img9.png',
+		img: 'img9.png',
 		desc: '보쌈',
 	},
 	{
@@ -76,7 +76,7 @@ const menu = [
 		title: '곱창막창염통',
 		category: 'entree',
 		price: 23.99,
-		img: './images/img10.png',
+		img: 'img10.png',
 		desc: '곱막염 (Beef Intestines, Tribe and Heart)',
 	},
 	{
@@ -84,7 +84,7 @@ const menu = [
 		title: ' Spicy Stir fried Tripe and Large Intestines',
 		category: 'entree',
 		price: 23.99,
-		img: './images/img11.png',
+		img: 'img11.png',
 		desc: '불양 대창 구이',
 	},
 	{
@@ -92,7 +92,7 @@ const menu = [
 		title: 'Beef Brisket with Stir Bean sprout',
 		category: 'entree',
 		price: 19.99,
-		img: './images/img12.png',
+		img: 'img12.png',
 		desc: '차돌박이 숙주볶음',
 	},
 	{
@@ -100,7 +100,7 @@ const menu = [
 		title: 'Tofu with Stir fried kimchi and Pork',
 		category: 'entree',
 		price: 19.99,
-		img: './images/img13.png',
+		img: 'img13.png',
 		desc: '두부김치',
 	},
 	{
@@ -108,7 +108,7 @@ const menu = [
 		title: 'Bulgogi',
 		category: 'entree',
 		price: 19.99,
-		img: './images/img14.png',
+		img: 'img14.png',
 		desc: '불고기',
 	},
 	{
@@ -116,7 +116,7 @@ const menu = [
 		title: 'Spicy Stir fried Pork',
 		category: 'entree',
 		price: 17.99,
-		img: './images/img15.png',
+		img: 'img15.png',
 		desc: '제육볶음',
 	},
 	{
@@ -124,7 +124,7 @@ const menu = [
 		title: 'Chicken Gizzard',
 		category: 'entree',
 		price: 17.99,
-		img: './images/img16.png',
+		img: 'img16.png',
 		desc: '화생방 닭똥집',
 	},
 	{
@@ -132,7 +132,7 @@ const menu = [
 		title: 'Seafood Korean Pancake',
 		category: 'entree',
 		price: 15.99,
-		img: './images/img17.png',
+		img: 'img17.png',
 		desc: '해물파전',
 	},
 	{
@@ -140,7 +140,7 @@ const menu = [
 		title: 'Kimchi Korean Pancake',
 		category: 'entree',
 		price: 14.99,
-		img: './images/img18.png',
+		img: 'img18.png',
 		desc: '김치전',
 	},
 	{
@@ -148,7 +148,7 @@ const menu = [
 		title: 'Stir Fried Sausage and Vegetable',
 		category: 'entree',
 		price: 14.99,
-		img: './images/img19.png',
+		img: 'img19.png',
 		desc: '소세지 야채볶음',
 	},
 	{
@@ -156,7 +156,7 @@ const menu = [
 		title: 'Popcorn Chicken',
 		category: 'entree',
 		price: 14.99,
-		img: './images/img20.png',
+		img: 'img20.png',
 		desc: '팝콘치킨',
 	},
 	{
@@ -164,7 +164,7 @@ const menu = [
 		title: 'Korean Steamed Eggs with Cheese',
 		category: 'entree',
 		price: 12.99,
-		img: './images/img21.png',
+		img: 'img21.png',
 		desc: '치즈 계란찜',
 	},
 	{
@@ -172,7 +172,7 @@ const menu = [
 		title: 'Noodle in Cold Kimchi soup',
 		category: 'entree',
 		price: 12.99,
-		img: './images/img22.png',
+		img: 'img22.png',
 		desc: '김치말이국수',
 	},
 	{
@@ -180,7 +180,7 @@ const menu = [
 		title: 'Makguksu, Buckwheat Noodle in spicy cold broth',
 		category: 'entree',
 		price: 12.99,
-		img: './images/img23.png',
+		img: 'img23.png',
 		desc: '막국수',
 	},
 	{
@@ -188,7 +188,7 @@ const menu = [
 		title: 'Deep Fried filefish jerky',
 		category: 'entree',
 		price: 12.99,
-		img: './images/img24.png',
+		img: 'img24.png',
 		desc: '쥐포튀김',
 	},
 	{
@@ -196,7 +196,7 @@ const menu = [
 		title: 'Spam Kimchi Fried Rice with Fried Egg',
 		category: 'entree',
 		price: 9.99,
-		img: './images/img25.png',
+		img: 'img25.png',
 		desc: '스팸 김치볶음밥',
 	},
 	{
@@ -204,7 +204,7 @@ const menu = [
 		title: 'Silkworm Soup',
 		category: 'entree',
 		price: 9.99,
-		img: './images/img26.png',
+		img: 'img26.png',
 		desc: '번데기탕',
 	},
 	{
@@ -212,7 +212,7 @@ const menu = [
 		title: 'Mac & Corn Cheese',
 		category: 'entree',
 		price: 9.99,
-		img: './images/img27.png',
+		img: 'img27.png',
 		desc: '마카로니 콘치즈',
 	},
 	{
@@ -220,7 +220,7 @@ const menu = [
 		title: 'Fried Eggs with spam',
 		category: 'entree',
 		price: 9.99 ,
-		img: './images/img28.png',
+		img: 'img28.png',
 		desc: '스팸 계란후라이',
 	},
 	{
@@ -228,7 +228,7 @@ const menu = [
 		title: 'Truffle French Fries',
 		category: 'entree',
 		price: 9.99,
-		img: './images/img29.png',
+		img: 'img29.png',
 		desc: '트러플 감자튀김',
 	},
 	{
@@ -236,7 +236,7 @@ const menu = [
 		title: 'Onion Ring',
 		category: 'entree',
 		price: 8.99,
-		img: './images/img30.png',
+		img: 'img30.png',
 		desc: '양파링',
 	},
 	{
@@ -244,7 +244,7 @@ const menu = [
 		title: 'Mozzarella Cheese Stick',
 		category: 'entree',
 		price: 8.99,
-		img: './images/img31.png',
+		img: 'img31.png',
 		desc: '모짜렐라 치즈스틱',
 	},
 	{
@@ -252,7 +252,7 @@ const menu = [
 		title: 'Acorn Jelly in Cold Broth',
 		category: 'entree',
 		price: 7.99 ,
-		img: './images/img32.png',
+		img: 'img32.png',
 		desc: '묵사발',
 	},
 	{
@@ -260,7 +260,7 @@ const menu = [
 		title: 'Peach in Light Syrup',
 		category: 'entree',
 		price: 6.99,
-		img: './images/img33.png',
+		img: 'img33.png',
 		desc: '황도',
 	},
 	{
@@ -268,7 +268,7 @@ const menu = [
 		title: 'Fried Dumpling',
 		category: 'entree',
 		price: 6.99,
-		img: './images/img34.png',
+		img: 'img34.png',
 		desc: '군만두',
 	},
 	{
@@ -276,7 +276,7 @@ const menu = [
 		title: 'Dried Squid and Peanuts',
 		category: 'entree',
 		price: 16.99,
-		img: './images/img35.png',
+		img: 'img35.png',
 		desc: '마른오징어 땅콩',
 	},
 	{
@@ -284,7 +284,7 @@ const menu = [
 		title: 'Fruit Platter',
 		category: 'entree',
 		price: 19.99,
-		img: './images/img36.png',
+		img: 'img36.png',
 		desc: '과일안주',
 	},
 	{
@@ -292,7 +292,7 @@ const menu = [
 		title: 'Korean Spicy Chicken and Intestines Stew w/ Noodle',
 		category: 'soup',
 		price: 34.99,
-		img: './images/img37.png',
+		img: 'img37.png',
 		desc: '곱도리탕',
 	},
 	{
@@ -300,7 +300,7 @@ const menu = [
 		title: 'Tendon/Shank Soup',
 		category: 'soup',
 		price: 25.99,
-		img: './images/img38.png',
+		img: 'img38.png',
 		desc: '도가니 수육 전골',
 	},
 	{
@@ -308,7 +308,7 @@ const menu = [
 		title: 'Army Stew w/ Ramen noodle',
 		category: 'soup',
 		price: 24.99,
-		img: './images/img39.png',
+		img: 'img39.png',
 		desc: '부대찌개',
 	},
 	{
@@ -316,7 +316,7 @@ const menu = [
 		title: 'Seafood Jjampong w/ udon noodle',
 		category: 'soup',
 		price: 24.99,
-		img: './images/img40.png',
+		img: 'img40.png',
 		desc: '해물짬뽕탕',
 	},
 	{
@@ -324,7 +324,7 @@ const menu = [
 		title: 'Silken Tofu Stew with Beef',
 		category: 'soup',
 		price: 19.99,
-		img: './images/img41.png',
+		img: 'img41.png',
 		desc: '새마을 순두부 전골',
 	},
 	{
@@ -332,7 +332,7 @@ const menu = [
 		title: 'Mussel Soup',
 		category: 'soup',
 		price: 17.99,
-		img: './images/img42.png',
+		img: 'img42.png',
 		desc: '홍합탕',
 	},
 	{
@@ -340,7 +340,7 @@ const menu = [
 		title: 'Fishcake Soup',
 		category: 'soup',
 		price: 14.99,
-		img: './images/img43.png',
+		img: 'img43.png',
 		desc: '오뎅탕',
 	},
 	{
@@ -348,7 +348,7 @@ const menu = [
 		title: 'Malatang - Pork/Brisket',
 		category: 'soup',
 		price: 16.99,
-		img: './images/img44.png',
+		img: 'img44.png',
 		desc: '마라탕-돼지$5.99/차돌 $7.99',
 	},
 ];
