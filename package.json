@@ -1,7 +1,7 @@
 {
-  "name": "my-app",
+  "name": "pub-menu",
   "version": "5.0.0",
-  "homepage": "https://byun-sungwoo.github.io/byun-sungwoo.github.io",
+  "homepage": "http://byun-sungwoo.github.io/byun-sungwoo.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
